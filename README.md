@@ -1,2 +1,2 @@
-# sigma-web-dev
+# Sigma-Web-Dev
 FULL STACK WEB DEVELOPMENT WITH SIGMA EXPRESS
