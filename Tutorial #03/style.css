@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: white;
+    background-color: black;
+    font-style: italic;
+    font-size: 50px;
+}
+body p{
+    background-color: lightgreen;
+    color: black;
+    font-size: 30px;
+}
