@@ -1,0 +1,22 @@
+.papu{
+    color: white;
+}
+.red{
+    background-color: black;
+}
+.blue{
+    background-color: brown;
+}
+.yellow{
+    background-color: darkred;
+}
+#first-div{
+    font-size: 50px;
+}
+#second-div{
+    font-size: 25px;
+}
+#first-span{
+    font-size: 80px;
+}
+
