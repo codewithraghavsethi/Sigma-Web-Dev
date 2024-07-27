@@ -1,0 +1,25 @@
+header{
+    background-color:aqua;
+}
+nav{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+aside{
+    background-color: darkred;
+}
+main{
+    background-color: lightseagreen;
+}
+article{
+    background-color: crimson;
+}
+p{
+    background-color: brown;
+}
+footer{
+    background-color: black;
+    color: white;
+}
