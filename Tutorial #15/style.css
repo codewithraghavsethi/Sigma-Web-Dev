@@ -1,0 +1,14 @@
+body{
+    background-color: lightskyblue;
+}
+h4{
+    background-color: rgb(2, 0, 0);
+    color: yellowgreen;
+}
+ol li{
+    text-decoration: underline;
+    font-weight: bold;
+}
+h1{
+    text-decoration: underline;
+}
