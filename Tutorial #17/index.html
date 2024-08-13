@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWithSethiji - CSS Selectors</title>
+    <style>
+        /* Uneversal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Element Selector */
+        header{
+            background-color: black;
+            color: white;
+        }
+        /* Class Selector */
+        .red{
+            background-color: black;
+            color: aqua;
+        }
+        /* ID Selector */
+        #green{
+            background-color: black;
+            color: greenyellow;
+        }
+        /* Child Selector */
+        span > p{
+            background-color: black;
+            color: pink;
+        }
+
+        /* Descendant Selector */
+        div p {
+            background-color: black;
+            color: orange;
+        }
+
+        /* Pscudo Selector */
+        a:visited{
+            color: green;
+        }
+        a:link{
+            color: red;
+        }
+        a:active{
+            color: darkred;
+            background-color: black;
+        }
+        a:hover{
+            background-color: lightgreen;
+        }
+        main:first-child{
+            background-color: red;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <header>HEADER Raghav Sethi - CodeWithSethiji</header>
+
+    <div class="red">CLASS Raghav Sethi - CodeWithSethiji</div>
+
+    <div id="green">ID Raghav Sethi - CodeWithSethiji</div>
+
+    <span>
+        <p>PARAGRAPH Raghav Sethi - CodeWithSethiji</p>
+    </span>
+
+    <div>
+        <p>DIV - PARAGRAPH Raghav Sethi - CodeWithSethiji</p>
+    </div>
+
+    <div>
+        <main>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque possimus, nobis consectetur adipisci officia aspernatur ducimus expedita, enim impedit sequi optio earum est doloribus iure unde, pariatur dolorum quam delectus.</main>
+    </div>
+
+    <a href="https://www.codewithharry.com">Open CodeWithHarry</a>
+    <a href="https://www.google.com">Open Google</a>
+    <a href="https://www.facebook.com">Open Facebook</a>
+    <a href="https://www.instagram.com">Open Instagram</a>
+    <a href="https://www.twitter.com">Open Twitter</a>
+    
+</body>
+</html>
