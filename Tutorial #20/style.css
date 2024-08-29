@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    line-height: 2;
+}
+p:first-child{
+    color: red;
+    background-color: yellow;
+}
+div > p{
+    color: white;
+    background-color: blue;
+}
