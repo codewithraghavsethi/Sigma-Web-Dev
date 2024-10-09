@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeWithSethiji - CSS Variables</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      :root {
+        --color: rgba(200, 0, 0, 0.700);
+        --sec-color: rgb(180, 0, 0);
+        --thirdcolor: rgb(150, 0, 0);
+        --font-s: 20px;
+        --font-w: 900;
+      }
+      header{
+        background-color: var(--thirdcolor);
+      }
+      header nav ul{
+        display: flex;
+      }
+      header nav ul li{
+        list-style: none;
+        margin: 5px 10px;
+        padding: 5px;
+        padding: var(--font-s);
+        font-size: var(--font-s);
+        font-weight: var(--font-w);
+      }
+      main h1{
+        background-color: var(--sec-color);
+        font-size: var(--font-s);
+      }
+      main {
+            background-color: var(--color, green);
+            height: 83vh;
+      }
+      main p{
+        font-size: var(--font-s);
+      }
+      main h2{
+        --color: rgba(10, 223, 188, 0.552);
+        background-color: var(--color);
+      }
+      footer{
+        background-color: var(--thirdcolor);
+        text-align: center;
+        height: 5vh;
+      }
+      footer p{
+        font-weight: var(--font-w);
+        font-size: var(--font-s);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Service</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>lipsum dolor sit amet consectetur adipisicing elit.</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi
+        obcaecati ut tempore nulla laudantium amet placeat optio sit, unde
+        repellendus, exercitationem dignissimos eum id sapiente vitae ipsam ex,
+        odio magnam!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+        laboriosam rerum facilis provident debitis molestiae, quae nam
+        voluptates placeat sunt sed, odio consequatur necessitatibus
+        perspiciatis numquam, iusto nobis doloremque aspernatur dolores? Quae,
+        atque itaque! Numquam quidem commodi non voluptas sapiente consequatur
+        ea veritatis sequi molestias id. Iusto quis animi eius minus soluta!
+        Necessitatibus ipsum temporibus corporis architecto enim voluptatibus,
+        odit recusandae sapiente nesciunt culpa amet tenetur numquam laboriosam
+        iste impedit facere? Excepturi voluptatibus perferendis ipsa
+        exercitationem veniam, iure fugiat esse accusantium reprehenderit
+        officiis neque error vitae eveniet cumque odit dolores, similique
+        ducimus? Hic unde ab soluta fuga quia sed sequi.
+      </p>
+      <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis obcaecati asperiores consequatur sunt ut, autem hic earum cupiditate neque velit porro omnis, doloremque ea atque deserunt molestiae voluptates pariatur reiciendis.</h2>
+
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque quam omnis distinctio culpa explicabo debitis porro nihil odit, accusamus illum molestiae, in nulla exercitationem doloribus magni consequuntur! Aut unde, obcaecati, reprehenderit, doloribus ullam beatae vero quibusdam omnis aspernatur nulla iure? Consequuntur dignissimos esse voluptatem labore blanditiis in delectus exercitationem ullam, omnis enim? Non perspiciatis asperiores enim similique soluta et laudantium id, cum quod veniam magni exercitationem dolorem ea molestiae fugiat voluptas architecto fuga maxime! Velit harum officiis quidem excepturi, beatae officia dicta, ea nulla at quod tempora nihil laudantium aliquid ullam eos eaque a pariatur esse atque neque, quasi veniam sunt vitae dolor? Ipsa quos quasi quaerat sit, eligendi eos maiores mollitia delectus, porro voluptas qui minus deserunt suscipit nulla, laboriosam e consequuntur placeat eaque eveniet ducimus delectus rem adipisci suscipit, dolor reiciendis beatae neque repudiandae? Praesentium, reiciendis necessitatibus natus vel maiores, animi in magnam ratione volupt molestias. Obcaecati, ut voluptatem. Hic deserunt nemo officia doloremque molestias doloribus obcaecati eaque sunt natus veniam, qui eligendi quisquam nostrum repudiandae quis explicabo ducimus. Optio rem in pariatur deserunt nam, numquam, architecto ratione sit velit accusantium nobis officia eligendi, qui aliquam nostrum consectetur vitae! Officiis facilis illum, voluptas ipsam iste a explicabo ex officia nulla sint magnam. Rem aliquid qui itaque expedita id tempora optio omnis ducimus quo, autem, veritatis quas asperiores quaerat nesciunt quasi odit nihil voluptatum? In, maxime quibusdam! Veniam et rerum aliquam, tempore quod labore ducimus ea.</p>
+    </main>
+    <footer>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+      voluptatum! </p>
+    </footer>
+  </body>
+</html>
