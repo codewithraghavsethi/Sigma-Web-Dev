@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWithSethiji - Shadow and Outlines</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            width: 200px;
+            height: 200px;
+            border-radius: 5px;
+            box-shadow: 10px 10px 10px 5px rgb(87, 85, 85);
+        }
+        .t-element{
+            font-size: 30px;
+            margin: 50px;
+            text-shadow: 5px 5px 10px black;
+        }
+
+       /* The outline is always outside and the border is inside. */
+        .t-element{
+            outline: 2px solid red;
+            outline-offset: 10px;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum blanditiis vitae, distinctio obcaecati molestias perspiciatis neque! Distinctio fugit voluptatem impedit?
+    </div>
+    <div class="t-element">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, numquam! Hic labore delectus aperiam numquam amet quae facere praesentium nihil.</div>
+</body>
+</html>
