@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeWithSethiji - CSS GRID</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .items{
+            background-color: lightgoldenrodyellow;
+            border: 2px solid black;
+            height: 500px;
+            width: 500px;
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            /* justify-content: center; */
+            /* align-content: center; */
+            /* justify-items: end; */
+            /* align-items: center; */
+            /* place-content: center; */
+            /* place-items: center; */
+            
+          }
+          .item{
+            background-color: purple;
+            height: 50px;
+            width: 50px;
+            /* justify-self: center; */
+            /* align-self: center; */
+            place-self: center;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="items">
+      <div class="item item-1">1</div>
+      <div class="item item-2">2</div>
+      <div class="item item-3">3</div>
+      <div class="item item-4">4</div>
+      <div class="item item-5">5</div>
+      <div class="item item-6">6</div>
+    </div>
+  </body>
+</html>

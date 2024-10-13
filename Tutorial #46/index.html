@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWithSethiji - CSS Animation</title>
+    <style>
+        .contianer{
+            background-color: black;
+            width: 50vw;
+            height: 50vh;
+        }
+        .box{
+            background-color: aqua;
+            width: 50px;
+            height: 50px;
+            animation-name: sethiji;
+            animation-duration: 3s;
+            animation: name duration timing-function delay iteration-count direction fill-mode;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-direction: ;
+            animation-fill-mode: ;
+            animation-play-state: ;
+        }
+
+        @keyframes sethiji {
+            from{
+                background-color: red;
+                transform: translateX(0%);
+            }
+            to{
+                background-color: blue;
+                transform: translateX(90vw);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contianer">
+        <div class="box">Box</div>
+    </div>
+</body>
+</html>

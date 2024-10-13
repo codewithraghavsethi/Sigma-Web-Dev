@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWithSethiji - Bounce Ball with help of CSS Animation</title>
+    <style>
+        .container{
+            height: 80vh;
+            width: 80vw;
+            background-color: gray;
+            position: relative;
+        }
+        .box{
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 70px;
+            left: 0px;
+            bottom: 0px;
+            position: absolute;
+            animation: ballup 1s ease-out infinite alternate, balldown 3s linear infinite;
+
+            /* animation-duration: 1s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+            animation: balldown;
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite; */
+
+        }
+        @keyframes ballup {
+            from{
+                bottom: 0%;
+            }
+            to{
+                bottom: 100%;
+            }
+        }
+        @keyframes balldown {
+            from{
+                left: 0%;
+            }
+            to{
+                left: 100%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

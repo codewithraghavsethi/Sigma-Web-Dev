@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWithSethiji - More on CSS Selectors</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box:first-child{
+            background-color: lightcoral;
+        }
+        .box p::first-letter{
+            color: red;
+        }
+        .box div h1::first-letter{
+            color: purple;
+        }
+        .box4:nth-last-child(1){
+            color: red;
+        }
+        .box1 div h1::before{
+            content: "Hello World";
+            color: orangered;
+        }
+        .box div :last-child::after{
+            content: "thank you";
+            color: yellowgreen;
+        }
+        .box p:last-child::after{
+            content: "Ram Ram";
+            color: blue;
+        }
+        ::selection{
+            background-color: black;
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box box1">
+            <div><h1>Raghav Sethi</h1></div>
+            <p>Hi I am called Raghav Sethi</p>
+        </div>
+        <div class="box box2">
+            <div><h1>Raghav Sethi</h1></div>
+            <p>Hello How are you thank you will come here.</p>
+        </div>
+        <div class="box box3">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, cupiditate.</p>
+        </div>
+        <div class="box box4">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint voluptas dicta? Dicta ut suscipit quia. Atque porro corrupti doloribus harum consectetur debitis mollitia enim. </p>
+        </div>
+    </div>    
+</body>
+</html>

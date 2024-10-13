@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeWithSethiji - Exercise-6</title>
+    <title>Creat a Ultra Edit Website with the use of Flex Box</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dancing+Script&family=Lobster&family=Lora&family=Nunito&family=Poppins&family=Roboto&family=Rubik&family=Ubuntu&display=swap');
+      </style>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        font-family: 'poppins', sans-serif;
+      }
+      .navbar {
+        height: 15vh;
+        background-color: rgb(165, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+      }
+      .left-nav {
+        display: flex;
+        align-content: center;
+      }
+      .right-nav {
+        display: flex;
+        align-content: center;
+      }
+      .left-nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 0 20px;
+        font-size: 1.5rem;
+      }
+      .left-nav ul li a {
+        text-decoration: none;
+        color: black;
+      }
+      .fa-solid {
+        margin: 5px;
+      }
+      .icon {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        background-color: rgba(255, 217, 0, 0.87);
+        color: black;
+        margin: 10px;
+        padding: 10px;
+        border: 3px solid black;
+        border-radius: 50%;
+        font-weight: 900;
+        font-size: 2.2rem;
+        height: 50px;
+        width: 50px;
+      }
+      .box{
+        padding: 5px;
+      }
+      .box1 {
+        margin: 0 5px;
+        font-size: 2.5rem;
+      }
+      .box2 {
+        display: flex;
+        justify-content: right;
+        margin: 0 5px;
+        font-size: 12px;
+        
+      }
+      .icon-2{
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="left-nav">
+            <div class="icon">UE</div>
+            <div class="box">
+              <div class="box1">UltraEdit</div>
+              <div class="box2">An Idera, Inc. Company</div>
+            </div>
+          </div>
+          <div class="left-nav">
+            <ul>
+              <li><a href="">Products<i class="fa-solid fa-angle-down"></i></a></li>
+              <li><a href="">Pricing<i class="fa-solid fa-angle-down"></i></a></li>
+              <li><a href="">Resources<i class="fa-solid fa-angle-down"></i></a></li>
+              <li><a href="">About Us<i class="fa-solid fa-angle-down"></i></a></li>
+              <li><a href=""><i class="fa-solid fa-language icon-2"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <script
+      src="https://kit.fontawesome.com/a4f199cad2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
